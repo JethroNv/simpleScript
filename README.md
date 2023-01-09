@@ -1,0 +1,2 @@
+# simpleScript
+This is my first simple bash script for linux automation

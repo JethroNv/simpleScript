@@ -1,0 +1,1000 @@
+  349  ls
+  350  cd Africa
+  351  ls
+  352  cd Egypt
+  353  ls
+  354  cd Cairo
+  355  ls
+  356  cd ~
+  357  cat > Asia/India/Mumbai/City.txt
+  358  sudo cat > Asia/India/Mumbai/City.txt
+  359  cd Asia/India/Mumbai
+  360  ll
+  361  sudo chmod 760
+  362  sudo chmod 760 City.txt
+  363  sudo cat > Asia/India/Mumbai/City.txt
+  364  sudo chmod 766 City.txt
+  365  sudo cat > City.txt
+  366  sudo cat City.txt
+  367  sudo cat > City.txt
+  368  sudo cat City.txt
+  369  cd ~
+  370  touch Asia/China/Country.txt
+  371  sudo touch Asia/China/Country.txt
+  372  sudo ls Asia/China/Country.txt
+  373  ls
+  374  cd Asia
+  375  ls
+  376  cd China
+  377  ls
+  378  cd ~
+  379  kldr
+  380  tldr
+  381  sudo apt install tldr
+  382  what is df
+  383  ls /bin
+  384  ls /sbin
+  385  echo $SHELL
+  386  tldr man
+  387  tldr cp
+  388  tldr uptime
+  389  tldr tldr
+  390  whatis tldr
+  391  whatis history
+  392  what is cp
+  393  whatis cp
+  394  whatis ls
+  395  whatis ll
+  396  ll /bin
+  397  echo $PS1
+  398  echo $LOGNAME
+  399  echo $PATH
+  400  which obs-studio
+  401  uname
+  402  uname -r
+  403  type echo
+  404  type mv
+  405  type date
+  406  pushd /etc
+  407  tldr pushd
+  408  man pushd
+  409  cd
+  410  ls
+  411  cd /var
+  412  pushd /etc
+  413  popd
+  414  pushd
+  415  ls
+  416  mkdir pract
+  417  ks
+  418  ls
+  419  cd /pract
+  420  cd pract
+  421  touch material.txt
+  422  ls
+  423  vi material.txt
+  424  cat material.txt
+  425  more material.txt
+  426  less material.txt
+  427  clear
+  428  ls
+  429  ls -t
+  430  ls -lt
+  431  ls -ltr
+  432  ls -a
+  433  whatis material
+  434  cd /dev
+  435  ls
+  436  cd loop3
+  437  cat loop3
+  438  sudo cat loop3
+  439  cat full
+  440  ll
+  441  cat autofs
+  442  ls -tl
+  443  cd
+  444  ls
+  445  cd pract
+  446  wget https://www.youtube.com/watch?v=6bMkfOwV2uM
+  447  cat /dev/sdb1
+  448  ls
+  449  mv watch?v=6bMkfOwV2uM idomaDance
+  450  ls
+  451  cd
+  452  dmesg
+  453  dmesg|grep -i usb
+  454  udevadm info --query=path --name=/dev/sda5
+  455  udevadm info --query=path --name=/dev/sdab
+  456  lspci
+  457  sudo lspci
+  458  man lspci
+  459  lspci -t
+  460  lspci
+  461  tldr lspci
+  462  lsblk
+  463  lscpu
+  464  lsmem
+  465  lsmem --summary
+  466  man lsmem
+  467  lsmem -a
+  468  free
+  469  free -g
+  470  free -k
+  471  free -m
+  472  lshw
+  473  sudo su
+  474  wget https://aws.amazon.com/training/digital/aws-builder-labs/?trk=cd173df5-f61f-4a1f-bb73-a60a32a8c766&sc_channel=em&mkt_tok=MTEyLVRaTS03NjYAAAGIpke_ZHh94vt_VnpdidSbviOgqUn_T4AVEeSerFhlqpYoMFhsr9TjV_2B4IUugA4GcHpG-q8jkXF4URJxOnzxLhSxWgijLJFPw9jhnqJJ20Q5_5SxdQpj
+  475  ls
+  476  mv index.html?trk=cd173df5-f61f-4a1f-bb73-a60a32a8c766 fromAws
+  477  ls
+  478  cat fromAws
+  479  ls
+  480  cat wget-log
+  481  clear
+  482  ls -l /sbin/init
+  483  cat /lib/systemd/systemd
+  484  runlevel
+  485  sudo su
+  486  tldr runlevel
+  487  man runlevel
+  488  systemctl get-default
+  489  ls -ltr /etc/systemd/system/default.target
+  490  sudo ls -ltr /etc/systemd/system/default.target
+  491  ls -a
+  492  pwd
+  493  cd .
+  494  cd ..
+  495  cd ...
+  496  cd .
+  497  ls
+  498  cd
+  499  ls
+  500  cd ..
+  501  ls
+  502  cd
+  503  clear
+  504  ls
+  505  file America
+  506  cd pract
+  507  ls
+  508  file idomaDance
+  509  $PATH
+  510  CD
+  511  cd
+  512  ls -ld
+  513  cd /mnt
+  514  cd c
+  515  ls
+  516  cd Users
+  517  cd Jethro
+  518  cd Desktop
+  519  pwd
+  520  cd
+  521  ls
+  522  cd pract
+  523  ls
+  524  byobu
+  525  logout
+  526  ls
+  527  cd fromAws
+  528  cd pract
+  529  ls
+  530  mv idomaDance /mnt/c/Users/Jethro/Desktop
+  531  ls
+  532  wget https://www.google.com/search?q=idoma+dance&oq=idoma+dance&aqs=chrome..69i57j0i512l3j0i22i30l6.3055j0j7&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:0eadb61f,vid:6bMkfOwV2uM
+  533  wget https://www.youtube.com/watch?v=6bMkfOwV2uM
+  534  ls
+  535  ps
+  536  cd
+  537  ps
+  538  web.whatsapp.com
+  539  wget web.whatsapp.com
+  540  clear
+  541  dpkg -i gimp.deb
+  542  sudo dpkg -i gimp.deb
+  543  sudo su
+  544  pwd
+  545  apt --list
+  546  apt list
+  547  zvbi
+  548  clear
+  549  cd /mnt/c
+  550  ls
+  551  cd Users
+  552  cd Jethro
+  553  cd Desktop
+  554  ls
+  555  cd owoicho
+  556  ls
+  557  python3 primeNumbers.py
+  558  cd
+  559  clear
+  560  dpkg -i telnet.deb
+  561  sudo dpkg -i telnet.deb
+  562  sudo apt install gimp
+  563  gimp
+  564  sudo gimp
+  565  sudo remove gimp
+  566  whatis remove
+  567  gimp
+  568  cat /etc/apt/sources.list
+  569  gimp
+  570  sudo su
+  571  gimp
+  572  clear
+  573  apt edit-sources
+  574  sudo apt edit-sources
+  575  ls -a
+  576  mkdir dud
+  577  du -sk test.img
+  578  ls
+  579  cd dud
+  580  touch test.img
+  581  du -sk test.img
+  582  du -sh test.img
+  583  ls -lh test.img
+  584  man du
+  585  du
+  586  cd
+  587  du
+  588  tldr du
+  589  man du
+  590  cat > learners.txt
+  591  cat > learners.csv
+  592  ls
+  593  cat learners.csv
+  594  vi learners.csv
+  595  cat > engineering.csv
+  596  cat engineering.csv
+  597  cat > marketing.csv
+  598  cat marketing.csv
+  599  ld
+  600  ls
+  601  ls | grep .csv
+  602  ls
+  603  sudo rm -r learners.txt
+  604  ls
+  605  ls -al
+  606  ls -la
+  607  clear
+  608  tar -cf test.tar learners.csv engineering.csv marketing.csv
+  609  ls
+  610  du -sk test.tar
+  611  du -shl test.tar
+  612  tar -cf America.tar America
+  613  ls
+  614  tldr tar
+  615  man tar
+  616  man zip
+  617  ls | grep .tar
+  618  tar -tf test.tar
+  619  cat test.tar
+  620  rm -r engineering.csv learners.csv learners.csv
+  621  sudo rm -r engineering.csv learners.csv learners.csv
+  622  ls
+  623  tar -xf test.tar
+  624  ls
+  625  whatis cut
+  626  whatis tar
+  627  whatis zip
+  628  tldr tar
+  629  clear
+  630  cut -d "," -f 3 marketing.csv
+  631  cut -d " " -f 2 learners.csv
+  632  cut -d "," -f 2 learners.csv
+  633  cut -d ", " -f 2 learners.csv
+  634  clear
+  635  cut -d ", " -f 2 learners.csv
+  636  clear
+  637  cut -d "," -f 2 learners.csv
+  638  cd
+  639  ls
+  640  locate City.txt
+  641  cd America
+  642  ls
+  643  ls | grep City.txt
+  644  cd
+  645  ls | grep City.txt
+  646  locate .txt
+  647  find . -name howtobash.txt
+  648  find . -name ~/home.txt
+  649  find /etc -name passwd
+  650  sudo find /etc -name passwd
+  651  man grep
+  652  terraform --version
+  653  docker --version
+  654  man tee
+  655  history
+  656  history | more
+  657  history > history.txt
+  658  cat history.txt
+  659  sudo rm history.txt
+  660  ls
+  661  rm fromAws
+  662  rm wget-log
+  663  ls
+  664  clear
+  665  man tee
+  666  echo $SHELL | shell.txt
+  667  echo $SHELL | tee shell.txt
+  668  cat shell.txt
+  669  ls
+  670  rm shell.txt
+  671  ls
+  672  echo $SHELL > shell.txt
+  673  cat shell.txt
+  674  ls
+  675  rm shell.txt
+  676  ls
+  677  nano learners.csv
+  678  man tee
+  679  tldr tee
+  680  echo "This is lab6 Devops Interns." | tee -a shell.txt
+  681  cat shell.txt
+  682  echo "DevOps guys are great." | tee -a shell.txt
+  683  cat shell.txt
+  684  clear
+  685  vi owoicho.txt
+  686  ls
+  687  touch owoicho.txt
+  688  ls
+  689  sudo chmod 777 owoicho.txt
+  690  ls
+  691  history | tee jethro.txt
+  692  clear
+  693  ls
+  694  sudo chmod 700 owoicho.txt
+  695  history > mydailycommand.txt
+  696  cat mydailycommand.txt | tee commoncommand.txt
+  697  clear
+  698  history
+  699  history tail
+  700  tail history
+  701  clear
+  702  ls
+  703  ll
+  704  clear
+  705  history
+  706  nano mydailycommand.txt
+  707  clear
+  708  man nano
+  709  tldr nano
+  710  cat > nocode.txt
+  711  clear
+  712  cat nocode.txt
+  713  ls
+  714  rm jethro.txt
+  715  rm nocode.txt
+  716  ls
+  717  ll
+  718  rm shell.txt
+  719  sudo chmod commoncommand.txt
+  720  sudo chmod 700 learners.csv
+  721  vi learners.csv
+  722  clear
+  723  history
+  724  cat mydailycommand.txt | tee commoncommand.txt
+  725  clear
+  726  vi learners.csv
+  727  cat learners.csv
+  728  ls
+  729  commoncommand.txt
+  730  vi commoncommand.txt
+  731  clear
+  732  vi commoncommand.txt
+  733  vim
+  734  boto
+  735  man boto
+  736  tldr boto
+  737  vi mydailycommand.txt
+  738  which vi
+  739  which echo
+  740  which ls
+  741  which cd
+  742  whatis cd
+  743  whatis vi
+  744  vim > vim.txt
+  745  ls
+  746  vi learners.csv
+  747  mv learners.csv interns.csv
+  748  ls
+  749  cat interns.csv
+  750  tar -cf interns.tar interns.csv
+  751  ls
+  752  mv interns.tar nvitinterns.tar
+  753  ls
+  754  vi interns.csv
+  755  man pam
+  756  sudo cat /etc/passwd
+  757  cat /etc/group
+  758  cat /etc/shadow
+  759  sudo cat /etc/shadow
+  760  cat pcat.sh
+  761  sudo cat pcat.sh
+  762  man pcat
+  763  man python-pygments
+  764  python-pygments
+  765  cat > 07035281923.txt
+  766  clear
+  767  id
+  768  cat /etc/group
+  769  clear
+  770  sudo cat /etc/passwd
+  771  sudo cat /etc/shadow
+  772  who
+  773  last
+  774  sudo who
+  775  whoami
+  776  clear
+  777  whoami
+  778  su-
+  779  su -
+  780  sudo su -
+  781  sudo useradd newboy
+  782  cat /etc/passwd
+  783  sudo su
+  784  sudo su newboy
+  785  sudo userdel newboy
+  786  cat /etc/passwd
+  787  sudo su
+  788  visudo
+  789  sudo visudo
+  790  cat /etc/sudoers
+  791  sudo cat /etc/sudoers
+  792  man sudoers
+  793  clear
+  794  grep -i newboy /etc/passwd
+  795  sudo cat /etc/shadow
+  796  mkdir internship
+  797  ls
+  798  cd internship
+  799  useradd marvee
+  800  sudo useradd marvee
+  801  sudo passwd marvee
+  802  su - marvee
+  803  sudo su - marvee
+  804  su - marvee
+  805  sudo cat /etc/passwd
+  806  useradd -u 1004 -g 1000 -d /home/sirblaq -s /bin/bash -c "Junior DevOps Engineer" daniel
+  807  sudo useradd -u 1004 -g 1000 -d /home/sirblaq -s /bin/bash -c "Junior DevOps Engineer" daniel
+  808  clear
+  809  cat /etc/passwd
+  810  su - daniel
+  811  suo su - daniel
+  812  sudo su - daniel
+  813  history
+  814  clear
+  815  groupadd devopsteam
+  816  sudo groupadd devopsteam
+  817  sudo cat /etc/shadow
+  818  sudo cat /etc/passwd
+  819  cat /etc/group
+  820  useradd -g 1005 austin
+  821  sudo useradd -g 1005 austin
+  822  sudo useradd -g 1005 tony
+  823  sudo useradd -g 1005 rod
+  824  sudo useradd -g 1005 ashly
+  825  cat /etc/group
+  826  cat /etc/passwd
+  827  sudo chmod 700 devopsteam
+  828  man chmod
+  829  cd /etc
+  830  vi sudoers
+  831  sudo vi sudoers
+  832  cd
+  833  sudo su - austin
+  834  touch lab.txt
+  835  cat > lab.txt
+  836  cat lab.txt
+  837  passwd austin
+  838  sudo passwd
+  839  sudo passwd tony
+  840  sudo passwd rod
+  841  sudo passwd ashly
+  842  sudo su - tony
+  843  useradd -s /bin/bash austin
+  844  sudo usermod -s /bin/bash austin
+  845  sudo usermod -s /bin/bash tony
+  846  sudo usermod -s /bin/bash rod
+  847  sudo usermod -s /bin/bash ashly
+  848  sudo su - tony
+  849  history
+  850  cd /etc
+  851  sudo vi sudoers
+  852  cd /etc
+  853  $PATH
+  854  env
+  855  ls
+  856  ll
+  857  rm -r 07035281923.txt
+  858  ls -a
+  859  sudo su - owoicho
+  860  ls -a
+  861  cd /etc
+  862  ls
+  863  cd
+  864  echo $LOGNAME
+  865  OFFICE=caleston
+  866  export OFFICE=caleston
+  867  OFFICE=caleston
+  868  echo $PATH
+  869  which obs-studio
+  870  whatis obs-studio
+  871  obs-studio -help
+  872  obs-studio --help
+  873  obs-studio
+  874  export PATH=$PATH:/opt/obs/bin
+  875  which obs-studio
+  876  export PATH=$PATH: /opt/obs/bin
+  877  echo $PSI
+  878  echo $PS1
+  879  CLEAR
+  880  clear
+  881  whatis date
+  882  date --help
+  883  apropos modpr
+  884  apropos date
+  885  apropos cd
+  886  apropos man
+  887  which cd
+  888  which man
+  889  whatis cd
+  890  apropos modpr
+  891  which obs-studio
+  892  echo $PS1
+  893  ls
+  894  file Europe
+  895  file interns.csv
+  896  ls
+  897  ls -l America.tar
+  898  touch greeting.com
+  899  ls
+  900  ls -l greeting.com
+  901  rm -r greeting.com
+  902  ls
+  903  clear
+  904  apropos chown
+  905  man chown
+  906  whatis chgrp
+  907  mkdir DevOpsAssignment
+  908  ls
+  909  cd DevOpsAssignment
+  910  cd
+  911  mv lab.txt /DevOpsAssignment
+  912  sudo mv lab.txt /DevOpsAssignment
+  913  sudo mv Africa America.tar /DevOpsAssignment
+  914  sudo mv Africa,America.tar /DevOpsAssignment
+  915  sudo mv America.tar /DevOpsAssignment
+  916  sudo mv Africa /DevOpsAssignment
+  917  clear
+  918  cd DevOpsAssignment
+  919  cd
+  920  mv DevOpsAssignment internship
+  921  ls
+  922  cd internship
+  923  ls
+  924  cd DevOpsAssignment
+  925  ls
+  926  ll
+  927  cd
+  928  ls
+  929  cat /etc/passwd
+  930  clear
+  931  cd /internship
+  932  ls
+  933  cd internship
+  934  cat > lab151222.txt
+  935  clear
+  936  cd
+  937  mkdir projects
+  938  cd projects
+  939  touch Dockerfile deployment.yml namespace.yml index.html
+  940  cat /etc/group
+  941  clear
+  942  groupadd -g 1006 frontend
+  943  sudo groupadd -g 1006 frontend
+  944  sudo groupadd -g 1007 devops
+  945  sudo groupadd -g 1008 QA
+  946  clear
+  947  cat /etc/group
+  948  usermod -g 1008 rod
+  949  sudo usermod -g 1008 rod
+  950  sudo usermod -g 1007 austin ashly
+  951  sudo usermod -g 1007 austin
+  952  sudo usermod -g 1007 ashly
+  953  sudo usermod -g 1006 tony
+  954  clear
+  955  ls
+  956  chown devops deployment.yml namespace.yml
+  957  sudo chown devops deployment.yml namespace.yml
+  958  cat /etc/group
+  959  sudo chown :devops deployment.yml namespace.yml
+  960  sudo chown :frontend index.html
+  961  sudo chown :QA Dockerfile
+  962  sudo chmod 474 namespace.yml
+  963  sudo chmod 474 deployment.yml
+  964  sudo chmod 474 index.html
+  965  sudo chmod 474 Dockerfile
+  966  cat /etc/group
+  967  clear
+  968  cd
+  969  mkdir project_1
+  970  cd project_1
+  971  touch Dockerfile deployment.yml index.html namespace.yml
+  972  ls
+  973  sudo groupadd devops
+  974  sudo usermod rod -aG QA rod
+  975  sudo usermod -aG QA rod
+  976  sudo chmod 474 Dockerfile
+  977  history
+  978  cd
+  979  cd projects
+  980  ls -a
+  981  ll
+  982  clear
+  983  cd
+  984  ls
+  985  cd intership
+  986  cd internship
+  987  cat > PortsProtcol.txt
+  988  cat >> PortsProtcol.txt
+  989  cat PortsProtcol.txt
+  990  ipconfig
+  991  ifconfig
+  992  sudo apt install net-tools
+  993  ifconfig
+  994  vi PortsProtcol.txt
+  995  cd
+  996  ls
+  997  cd /internship
+  998  cd internship
+  999  ls
+ 1000  mkdir historystore
+ 1001  cd historystore
+ 1002  history > history1st151222.txt
+ 1003  ls
+ 1004  cat history1st151222.txt
+ 1005  clear
+ 1006  cd
+ 1007  ls
+ 1008  cd internship
+ 1009  ls
+ 1010  PortsProtcol.txt
+ 1011  vi PortsProtcol.txt
+ 1012  ssh google.com
+ 1013  http google.com
+ 1014  sudo apt install httpie
+ 1015  http google.com
+ 1016  https google.com
+ 1017  clear
+ 1018  ssh-keygen -t rsa
+ 1019  cd
+ 1020  ls
+ 1021  ll
+ 1022  cd .ssh
+ 1023  ls
+ 1024  ll
+ 1025  cat id_rsa.pub
+ 1026  cat id_rsa
+ 1027  cd
+ 1028  clear
+ 1029  hostname
+ 1030  tcp hostname
+ 1031  ipconfig
+ 1032  ifconfig
+ 1033  ip
+ 1034  cat > myscript.txt
+ 1035  cat 0 < myscript.txt
+ 1036  https://docs.google.com/document/d/1UsVPGc2ovPGZFcjWb-NJg5EzOTsVqn6A6Myw7i-BZg4/edit
+ 1037  cat 0< myscript.txt
+ 1038  cat 1> myscript2.txt
+ 1039  cat 0< myscript2.txt
+ 1040  cat 0< $myscript2.txt
+ 1041  vi myscript.txt
+ 1042  cat 0< myscript.txt
+ 1043  rm -r myscript.txt myscript2.txt
+ 1044  ls
+ 1045  cd dud
+ 1046  ls
+ 1047  cat test.img
+ 1048  cd
+ 1049  https://docs.google.com/document/d/1UsVPGc2ovPGZFcjWb-NJg5EzOTsVqn6A6Myw7i-BZg4/editclear
+ 1050  clear
+ 1051  cat /etc/group
+ 1052  groupadd jethroG
+ 1053  sudo groupadd jethroG
+ 1054  cat /etc/group
+ 1055  sudo groupmod -n jethroG SteG
+ 1056  sudo groupmod -n steG jethroG
+ 1057  cat /etc/group
+ 1058  groupdel steG
+ 1059  sudo groupdel steG
+ 1060  cat /etc/group
+ 1061  sudo useradd jeth
+ 1062  sudo usermod -aG devopsteam,frontend,devops,QA jeth
+ 1063  cat /etc/group
+ 1064  sudo userdel -r jeth
+ 1065  cat /etc/group
+ 1066  clear
+ 1067  ping 192.168.1.11
+ 1068  ping 216.239.32.0
+ 1069  ifconfig
+ 1070  cat /etc/hosts
+ 1071  curl localhost
+ 1072  pint 127.0.0.0
+ 1073  ping 127.0.0.0
+ 1074  clear
+ 1075  nslookup google.com
+ 1076  ping 172.22.96.1
+ 1077  ping 216.58.223.206
+ 1078  clear
+ 1079  sudo vi /etc/hosts
+ 1080  nslookup google.com
+ 1081  curl google.com
+ 1082  hostname
+ 1083  cat /etc/hosts
+ 1084  ssh 216.58.223.238
+ 1085  clear
+ 1086  nslookup nvit.tech
+ 1087  ls
+ 1088  cd internship
+ 1089  ls
+ 1090  cd historystore
+ 1091  cat > 2ndhistory151222.txt
+ 1092  history > 2ndhistory151222.txt
+ 1093  nslookup naso.com
+ 1094  cat /etc/resolv.conf
+ 1095  history > 2ndhistory151222.txt
+ 1096  cat /etc/nsswitch.conf
+ 1097  history > 2ndhistory151222.txt
+ 1098  uname
+ 1099  uname -r
+ 1100  open() close()
+ 1101  cd udev
+ 1102  cd dev
+ 1103  cd /dev
+ 1104  ll
+ 1105  cd vfio/
+ 1106  ll
+ 1107  cat vfio
+ 1108  cd ..
+ 1109  cd block
+ 1110  ll
+ 1111  cd ..
+ 1112  cd bus
+ 1113  ll
+ 1114  cd usb/
+ 1115  ll
+ 1116  cd 001/
+ 1117  ll
+ 1118  cat 001
+ 1119  sudo cat 001
+ 1120  clear
+ 1121  man dmesg
+ 1122  apropos udevadm
+ 1123  apropos udev
+ 1124  lspci
+ 1125  cd
+ 1126  lspci
+ 1127  whatis lspci
+ 1128  lsblk
+ 1129  apropos lsblk
+ 1130  lscpu
+ 1131  lsmem --summary
+ 1132  free -m
+ 1133  apropos free
+ 1134  man free
+ 1135  lshw
+ 1136  sudo lshw
+ 1137  clear
+ 1138  ls -l /sbin/init
+ 1139  runlevel N
+ 1140  runlevelN
+ 1141  runlevel
+ 1142  systemctl get-default
+ 1143  man systemctl get-default
+ 1144  ls /
+ 1145  ll /
+ 1146  ls
+ 1147  clear
+ 1148  apt install httpd
+ 1149  sudo apt install httpd
+ 1150  cat /etc/apt/sources.list
+ 1151  sudo apt edit-sources
+ 1152  apt list
+ 1153  man firefox
+ 1154  clear
+ 1155  du-sk
+ 1156  ls
+ 1157  du-sk interns.csv
+ 1158  man du
+ 1159  man du-sk
+ 1160  du -sk interns.csv
+ 1161  man du
+ 1162  route
+ 1163  ip addr
+ 1164  docker --version
+ 1165  terraform --version
+ 1166  clear
+ 1167  apropos ip route
+ 1168  ckear
+ 1169  clear
+ 1170  apropos ip
+ 1171  ip link
+ 1172  man dir
+ 1173  cd /etc/network/interface
+ 1174  cd /etc
+ 1175  cd /network
+ 1176  ls
+ 1177  ll
+ 1178  cd /networks
+ 1179  cd networks
+ 1180  cat networks
+ 1181  cd
+ 1182  curl nvit.tech
+ 1183  lsblk
+ 1184  ls -l /dev/ | grep "^b"
+ 1185  ls -l /dev/ | grep "b"
+ 1186  clear
+ 1187  apropos fdisk
+ 1188  man fdisk
+ 1189  sudo fdisk -l /dev/sda
+ 1190  tldr fdisk
+ 1191  clear
+ 1192  lsblk
+ 1193  cd /dev
+ 1194  ls
+ 1195  gdisk sdb
+ 1196  gdisk sda
+ 1197  sudo apt install gdisk
+ 1198  lsblk
+ 1199  gdisk sdb
+ 1200  sudo gdisk sdb
+ 1201  clear
+ 1202  cd
+ 1203  cd /etc
+ 1204  ls
+ 1205  ll
+ 1206  lvs
+ 1207  sudo apt install lvm2
+ 1208  lvs
+ 1209  sudo lvs
+ 1210  cd
+ 1211  sudo lvs
+ 1212  man lvs
+ 1213  guys
+ 1214  systemd
+ 1215  apropos systemd
+ 1216  tldr systemd
+ 1217  man systemd
+ 1218  tldr systemctl
+ 1219  man systemctl
+ 1220  journal -u
+ 1221  sudo apt update
+ 1222  sudo apt install git
+ 1223  git --version
+ 1224  mkdir gitFolder
+ 1225  cd gitFolder
+ 1226  git init
+ 1227  ll
+ 1228  git config --global user.email jethrostev@gmail.com
+ 1229  git status
+ 1230  cat > gittext.txt
+ 1231  git status
+ 1232  git add gittext.txt
+ 1233  git status
+ 1234  git commit -m "this is my first commit, gittext.txt"
+ 1235  git config --global user.name jethrostev@gmail.com
+ 1236  git commit -m "this is my first commit, gittext.txt"
+ 1237  git status
+ 1238  git log
+ 1239  git show 7e65c535f1e
+ 1240  git remote add origin https://github.com/JethroNvit/BBC_WEBSITE-For-Coding-Towers.git
+ 1241  ll
+ 1242  cd gitFolder
+ 1243  git remote add origin https://github.com/JethroNvit/BBC_WEBSITE-For-Coding-Towers.git
+ 1244  git branch -M main
+ 1245  git push -u origin main
+ 1246  git remote add origin https://github.com/JethroNvit/BBC_WEBSITE-For-Coding-Towers.git
+ 1247  git branch -M main
+ 1248  git push -u origin main
+ 1249  terraform --version
+ 1250  docker --version
+ 1251  terraform
+ 1252  docker
+ 1253  docker -version
+ 1254  docker --version
+ 1255  docker
+ 1256  docker --version
+ 1257  docker -version
+ 1258  ll
+ 1259  gedit commoncommdand.txt
+ 1260  sudo apt install gedit
+ 1261  docker
+ 1262  hsitory
+ 1263  histroy
+ 1264  history
+ 1265  ls
+ 1266  terraform --version
+ 1267  git log
+ 1268  git --version
+ 1269  clear
+ 1270  git --version
+ 1271  history
+ 1272  git config --global user.name "Owoicho Emmanuel"
+ 1273  git config --replace -all
+ 1274  man git
+ 1275  tldr git
+ 1276  git config --list
+ 1277  ls
+ 1278  cd gitclass
+ 1279  ls
+ 1280  cd bashclass
+ 1281  ls
+ 1282  git log
+ 1283  clear
+ 1284  git config --global credential.username "Owoicho Emmanuel"
+ 1285  git config --global credential.useremail "owoichoemmanuel@nvit.tech"
+ 1286  git config --global list
+ 1287  git config --list
+ 1288  git log
+ 1289  git config --global user.name "Owoicho Emmanuel"
+ 1290  clear
+ 1291  git config --global --replace-all user.name "Owoicho Emmanuel"
+ 1292  git config --global --replace-all user.email "owoichoemmanuel@nvit.tech"
+ 1293  git config --list
+ 1294  git log
+ 1295  ls
+ 1296  mkdir initFolder; cd initFolder
+ 1297  git config --global user.name "Owoicho Emmanuel"
+ 1298  git config --global user.email "owoichoemmanuel@nvit.tech"
+ 1299  touch automation2.py; vi automation2.py
+ 1300  git status
+ 1301  ls
+ 1302  ll
+ 1303  touch Readme.md
+ 1304  vi Readme.md
+ 1305  git status
+ 1306  git log
+ 1307  cd ..
+ 1308  ls
+ 1309  touch automation3.sh
+ 1310  git status
+ 1311  git branch
+ 1312  tldr checkout
+ 1313  clear
+ 1314  ls
+ 1315  rm -rf initFolder
+ 1316  ls
+ 1317  git branch
+ 1318  git log
+ 1319  man git
+ 1320  git help
+ 1321  clear
+ 1322  ll
+ 1323  git remote -v
+ 1324  git remote add origin https://github.com/JethroNv/simpleScript.git
+ 1325  git remote -v
+ 1326  git pull https://github.com/JethroNv/simpleScript.git
+ 1327  ls
+ 1328  git status
+ 1329  git push -u origin main
+ 1330  git push -u origin
+ 1331  git checkout master
+ 1332  git log --graph --decorate
+ 1333  checkout devteam
+ 1334  git log
+ 1335  git branch
+ 1336  git checkout devteam
+ 1337  git branch
+ 1338  ll
+ 1339  git merge backend
+ 1340  git branch
+ 1341  git checkout master
+ 1342  git branch
+ 1343  git merge devteam
+ 1344  git branch
+ 1345  git log --graph --decorate
+ 1346  cat > git2023first.txt
+ 1347  ls
+ 1348  history > git2023first.txt
